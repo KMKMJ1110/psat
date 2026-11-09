@@ -1,0 +1,8 @@
+| 공식 자료에서 확인한 지연 | 우리 데이터에서 처리할 날짜 |
+  
+| **2024-11-12 12 UTC 회차**가 약 2시간 늦게 배포된다고 명시됐어요. | **발전 대상일 2024-11-14**의 CAMS를 제외해요. 오후 5시 전에 배포됐더라도, 운영진이 문서에 명시된 지연일도 빼라고 했기 때문이에요. [ECMWF 지연 공지](https://forum.ecmwf.int/t/cams-model-cy49r1-successfully-upgraded-on-12-november-2024/7622) |
+| **2026년 5월 12일 업그레이드 이후** ADS 배포 지연이 확인됐어요. 공지에서 우리에게 필요한 **12 UTC 회차별** 영향 범위는 확인되지 않았어요. | 범위를 확인하기 전까지는 **평가 대상일 2026-05-14~05-31**의 CAMS를 보수적으로 빼는 게 제안이에요. 이 18일 모두가 지연됐다고 확인된 건 아니에요. 
+  [업그레이드 공지](https://forum.ecmwf.int/t/confirmation-ifs-cycle-50r1-and-aifs-v2-joint-implementation-on-12-may-2026/14937) · [ECMWF 지연 답변](https://forum.ecmwf.int/t/problems-with-delayed-cams-global-atmospheric-composition-forecasts-in-ads/14980) |
+| **2022-05-11**에도 CAMS 배포 지연 공지가 있었어요. | 공지에 영향받은 회차가 명시되지 않아 학습 구간의 정확한 제외일은 추가 확인이 필요해요. [ECMWF 장애 공지](https://forum.ecmwf.int/t/technical-issue-on-ads-affecting-data-access-and-publication-of-cams-global-atmospheric-composition-forecast-data/1533) |
+
+  -> 보수적으로 해당 3개 날짜 값은 제외 !!!!!!!, 그리고 코드zip 돌리면 제외 시간에는 gfs 전용 예측을 자동으로 사용함
